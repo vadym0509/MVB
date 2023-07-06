@@ -334,7 +334,7 @@ Function Scroll Effects
 				var $this = $(this);					
 				gsap.to('#ball', {duration: 0.3, borderWidth: '2px', scale: 1.2, borderColor:$this.data('color'), backgroundColor:$this.data('color')});
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '2px', top: 2, left: 2});
-				$( "#ball" ).addClass("with-icon").append( '<i class="arrow-icon"></i>' );
+				$( "#ball" ).addClass("with-icon").append( '<i class="arrow-icon" style="transform: rotate(135deg)"></i>' );
 			});
 							
 			$("article .post-title").mouseleave(function(e) {

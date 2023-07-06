@@ -1434,7 +1434,6 @@
 	}
 	
 	.accordion dt span {
-		width: calc(100% - 80px);
 		position: relative;
 		overflow: hidden;
 		display: block;
@@ -1706,10 +1705,11 @@
 		font-weight: 500;
 		font-family: 'basis_grotesque_promedium', sans-serif;
 		position: relative;
-		display:table;
+		display:inline-flex;
+		justify-content: space-between;
 		margin-bottom:0px;
 		vertical-align: top;
-		width:100%;	
+		width: calc(100% - 150px);	
 		z-index:10;
 	}
 	
