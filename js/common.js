@@ -402,7 +402,7 @@ Function Scroll Effects
 		$('a.ajax-link').on('click', function(event) {
 			event.preventDefault();
 			var targetId = $(this)[0].id
-			var heroheight = document.querySelector("div#" + targetId).offsetParent.offsetTop + window.innerHeight;
+			var heroheight = document.querySelector("div#" + targetId).offsetParent.offsetTop + window.innerHeight - 80;
 			if(targetId === "hero"){
 				heroheight = 0;
 			}
